@@ -404,20 +404,13 @@ border-radius: 25px;
 .foot-media a img{
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.288);
+  transition: all 700ms;
 }
+.foot-media a img:hover{transform: scale(1.2);}
 .foot-media a::after{
   content: none;
 }
 
-/* .foot-media img:nth-child(1){
-  animation: anim1 1s ease 1;
-}
-.foot-media img:nth-child(2){
-  animation: anim1 1s ease 2s 1;
-}
-.foot-media img:nth-child(3){
-  animation: anim1 1s ease 3s 1;
-} */
 .anima{
   animation: anim1 8s ease infinite;
 }

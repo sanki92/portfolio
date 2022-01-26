@@ -28,10 +28,10 @@ const Footer = () => {
       
       </div>
       <div className="col-md-4 d-flex justify-content-center gap-5">
-         <div className="foot-media d-flex flex-column ms-auto gap-4">
-      <a href="https://twitter.com/Sankalpt_92"><img src="https://img.icons8.com/ios-filled/35/72b6ff/twitter-circled--v1.png"/></a>
-      <a href="https://github.com/sanki92"><img src="https://img.icons8.com/ios-filled/35/72b6ff/github.png"/> </a>
-      <a href="https://www.linkedin.com/in/sankalp-tripathi-53b7b61b5/"><img src="https://img.icons8.com/ios-filled/35/72b6ff/linkedin-circled--v4.png"/></a>
+         <div className="foot-media d-flex flex-column ms-auto">
+      <a className='my-2' href="https://twitter.com/Sankalpt_92"><img src="https://img.icons8.com/ios-filled/35/72b6ff/twitter-circled--v1.png"/></a>
+      <a className='my-2' href="https://github.com/sanki92"><img src="https://img.icons8.com/ios-filled/35/72b6ff/github.png"/> </a>
+      <a className='my-2' href="https://www.linkedin.com/in/sankalp-tripathi-53b7b61b5/"><img src="https://img.icons8.com/ios-filled/35/72b6ff/linkedin-circled--v4.png"/></a>
       </div> 
       <img className='illu-img' src="./images/contact.png" alt="" />
       </div>
