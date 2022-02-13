@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div id="home" className="mx-auto container-fluid justify-content-center d-flex align-items-center plane-container">
+    <div id="home" data-aos="slide-up"  className="mx-auto container-fluid justify-content-center d-flex align-items-center plane-container">
       <h1 id="name">Sankalp Tripathi</h1>
     <svg viewBox="0 0 3387 1270">
   <path id="planePath" className="planePath" d="M-226 626c439,4 636,-213 934,-225 755,-31 602,769 1334,658 562,-86 668,-698 266,-908 -401,-210 -893,189 -632,630 260,441 747,121 1051,91 360,-36 889,179 889,179" />

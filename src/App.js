@@ -35,7 +35,9 @@ function App() {
       <About/>
       <Skills/>
       <Project/>
+
       <Footer/>
+
     </>
   );
 }

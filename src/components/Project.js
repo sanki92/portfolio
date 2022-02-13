@@ -85,26 +85,33 @@ const Project = () => {
     <div className='container project-container'>
         <h1 className='heading'>Projects</h1>
         <div id='projects' className="project-card  mx-auto justify-content-center">
-            <div className="row card-container  flex-wrap justify-content-center">
-                    <div style={{background:"url('./images/newsapp.jpeg') center"}} className="card project-item pt-3 mx-2 my-2 justify-content-start">
+            <div   className="row card-container  flex-wrap justify-content-center">
+                    <div  style={{background:"url('./images/newsapp.jpeg') center"}} className="card project-item pt-3 mx-2 my-2 justify-content-center">
                     <div className="card-body justify-content-center align-items-center d-flex  flex-column fw-bold" >
                         <h5 className="card-title text-center">News App </h5>
                         <p className="card-text">Newsverse is a News app which fetch current popular news through a News API and display it on the page, the news is further categorized in some well-liked topics such as Entertainment, Science and Sports etc.</p>
                         <a target="_blank" href="https://github.com/sanki92/Newsverse">View</a>
                     </div>
                     </div> 
-                    <div style={{background:"url('./images/weatherapp.webp') right"}} className="card project-item bg-dark pt-3 mx-2 my-2 justify-content-start">
+                    <div style={{background:"url('./images/weatherapp.webp') right"}} className="card project-item bg-dark pt-3 mx-2 my-2 justify-content-center">
                     <div className="card-body justify-content-center align-items-center d-flex  flex-column fw-bold">
                         <h5 className="card-title text-center">Weather App</h5>
                         <p className="card-text">Shanky weather is a weather app which fetch weather information such as temperature and cloud status of last 1 hour of your desirable place and display it on the page.</p>
                         <a target="_blank" href="https://github.com/sanki92/ShankyWeather">View </a>
                     </div>
                     </div>
-                    <div style={{background:"url('./images/quoteapp.jpg')center left"}} className="card project-item bg-dark pt-3 mx-2 my-2 justify-content-start">
+                    <div style={{background:"url('./images/quoteapp.jpg')center left"}} className="card project-item bg-dark pt-3 mx-2 my-2 justify-content-center">
                     <div className="card-body justify-content-center align-items-center d-flex  flex-column fw-bold">
                         <h5 className="card-title text-center">Quotes App</h5>
                         <p className="card-text">Quotes app fetch data(which is Quote and Author's name) through a API of quotes and display it on the page. Every time you refreshes the page it shows random quote. </p>
                         <a target="_blank" href="https://github.com/sanki92/Quotes">View </a>
+                    </div>
+                    </div>
+                    <div style={{background:"url('./images/chatapp.jpg')top fixed no-repeat", backgroundSize:"cover"}} className="card project-item bg-dark pt-3 mx-2 my-2 justify-content-center">
+                    <div className="card-body justify-content-center align-items-center d-flex  flex-column fw-bold">
+                        <h5 className="card-title text-center">Chatting App</h5>
+                        <p className="card-text">It is a Real-time Chatting Web App created using "Socket.io and Node.js". The people with this website can chat together and there's no need of Sign up or Login.</p>
+                        <a target="_blank" href="http://shankychatapp.c1.biz/">View </a>
                     </div>
                     </div>
             </div>

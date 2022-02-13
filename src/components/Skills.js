@@ -6,11 +6,11 @@ const Skills = () => {
             <h1 className='heading'>Skills</h1>
             
             <div className="row">
-            <div className="skills-container col-md-4">
+            <div  className="skills-container col-md-4">
                         <div className='skill'>
                             <h6>html / css</h6>
                             <div className="progress">
-                            <div className="progress-bar bg-warning" role="progressbar" style={{"width": "90%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div  className="progress-bar bg-warning" role="progressbar" style={{"width": "90%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div className='skill'>
