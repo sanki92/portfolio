@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import $ from 'jquery';
+
 const Project = () => {
     const [count, setcount] = useState(1);
-
     useEffect(() => {
         const numberOfCards = document.querySelectorAll(".card-container .card").length;
         const buttons = document.querySelectorAll(".cardbtn");
@@ -54,6 +53,7 @@ const Project = () => {
             }
         // num.innerHTML=`${cardIndex}/${numberOfCards}`
             setcount(cardIndex);
+      
             card.style.transform=`translateX(${translate}rem)`;
         });
         });
@@ -117,7 +117,7 @@ const Project = () => {
             </div>
         </div>
         <div className="project-foot d-flex mx-auto mt-2  justify-content-between align-items-center ">
-             <h6 className='text-light mb-0'>{count}/3</h6>
+             <h6 className='text-light mb-0'>{count}/4</h6>
              <div className="btn-container">      
             <img className='cardbtn disable' id='previous' src={`https://img.icons8.com/ios/35/ffffff/right--v1.png`}/>
             <img className='cardbtn' id='next' src={`https://img.icons8.com/ios/40/ffffff/long-arrow-right.png`}/>
